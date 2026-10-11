@@ -1,0 +1,137 @@
+{
+  "dataset": "kyrgyz",
+  "encoder": "FacebookAI/xlm-roberta-large",
+  "encoder_revision": "c23d21b0620b635a76227c604d44e43a9f0ee389",
+  "max_length": 256,
+  "allow_truncation": true,
+  "bio": {
+    "epochs": 20,
+    "learning_rate": 2e-05,
+    "bf16": true,
+    "inference_bf16": true
+  },
+  "pool": {
+    "epochs": 20
+  },
+  "runs": {
+    "Run1": {
+      "bio_seed": 2037,
+      "partner_seed": 4037,
+      "pool_seed": 2037,
+      "external_seed": 2037
+    },
+    "Run2": {
+      "bio_seed": 2038,
+      "partner_seed": 4038,
+      "pool_seed": 2038,
+      "external_seed": 2038
+    },
+    "Run3": {
+      "bio_seed": 2036,
+      "partner_seed": 4036,
+      "pool_seed": 2040,
+      "external_seed": 2040
+    }
+  },
+  "external": {
+    "epochs": 20,
+    "entity_max_length": 22,
+    "gliner_label_names": {
+      "ACRONYM": "acronym",
+      "ANIMAL": "animal",
+      "ARTIFACT": "artifact",
+      "AWARD": "award",
+      "BUSINESS": "business",
+      "CONCEPT": "concept",
+      "CREATION": "creation",
+      "EVENT": "event",
+      "IDENTIFIER": "identifier",
+      "INSTALLATION": "installation",
+      "INSTITUTION": "institution",
+      "LEGAL": "legal",
+      "LOCATION": "location",
+      "MEASURE": "measure",
+      "MEDIA": "media",
+      "NATIONAL": "national",
+      "ORGANISATION": "organisation",
+      "PERIOD": "period",
+      "PERSON": "person",
+      "PERSON-TYPE": "person type",
+      "PLANT": "plant",
+      "SUBSTANCE": "substance",
+      "TITLE": "title",
+      "UNKNOWN": "unknown",
+      "WEBSITE": "website"
+    },
+    "gliner_model": "fastino/gliner2.5-multi-v1",
+    "gliner_revision": "cf5593a5d45e3bbf204b9df621b13b1c0cf25ee3"
+  },
+  "selection": {
+    "historical_draw": 2026,
+    "historical_options": {
+      "Run1": {
+        "FILTER": [
+          {
+            "kind": "scalar",
+            "field": "candidate_score",
+            "threshold": 0.7
+          }
+        ],
+        "LATTICE": [
+          {
+            "kind": "scored",
+            "threshold": 0.75
+          }
+        ],
+        "PAIR_TOKEN_LATTICE": [
+          {
+            "kind": "scored",
+            "threshold": 0.75
+          }
+        ]
+      },
+      "Run2": {
+        "FILTER": [
+          {
+            "kind": "scalar",
+            "field": "min_expected_prob",
+            "threshold": 0.6
+          }
+        ],
+        "LATTICE": [
+          {
+            "kind": "scored",
+            "threshold": 0.75
+          }
+        ],
+        "PAIR_TOKEN_LATTICE": [
+          {
+            "kind": "scored",
+            "threshold": 0.75
+          }
+        ]
+      },
+      "Run3": {
+        "FILTER": [
+          {
+            "kind": "scalar",
+            "field": "min_expected_prob",
+            "threshold": 0.05
+          }
+        ],
+        "LATTICE": [
+          {
+            "kind": "scored",
+            "threshold": 0.75
+          }
+        ],
+        "PAIR_TOKEN_LATTICE": [
+          {
+            "kind": "scored",
+            "threshold": 0.75
+          }
+        ]
+      }
+    }
+  }
+}

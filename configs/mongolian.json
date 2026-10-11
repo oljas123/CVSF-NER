@@ -1,0 +1,48 @@
+{
+  "dataset": "mongolian",
+  "encoder": "FacebookAI/xlm-roberta-large",
+  "encoder_revision": "c23d21b0620b635a76227c604d44e43a9f0ee389",
+  "max_length": 512,
+  "allow_truncation": false,
+  "bio": {
+    "epochs": 20,
+    "learning_rate": 3e-05,
+    "bf16": false,
+    "inference_bf16": false
+  },
+  "pool": {
+    "epochs": 20
+  },
+  "runs": {
+    "Run1": {
+      "bio_seed": 2037,
+      "partner_seed": 4037,
+      "pool_seed": 2037,
+      "external_seed": 2037
+    },
+    "Run2": {
+      "bio_seed": 2038,
+      "partner_seed": 4038,
+      "pool_seed": 2038,
+      "external_seed": 2038
+    },
+    "Run3": {
+      "bio_seed": 2036,
+      "partner_seed": 4036,
+      "pool_seed": 2040,
+      "external_seed": 2040
+    }
+  },
+  "external": {
+    "epochs": 20,
+    "entity_max_length": 8,
+    "gliner_label_names": {
+      "LOC": "loc",
+      "MISC": "misc",
+      "ORG": "org",
+      "PER": "per"
+    },
+    "gliner_model": "fastino/gliner2.5-multi-v1",
+    "gliner_revision": "cf5593a5d45e3bbf204b9df621b13b1c0cf25ee3"
+  }
+}

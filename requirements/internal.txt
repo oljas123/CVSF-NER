@@ -1,0 +1,8 @@
+-r core.txt
+torch==2.11.0
+transformers==5.9.0
+accelerate==1.13.0
+tokenizers==0.22.2
+huggingface-hub==1.14.0
+safetensors==0.7.0
+sentencepiece==0.2.1

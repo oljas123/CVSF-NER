@@ -1,0 +1,10 @@
+﻿language,system,run_id,tp,fp,fn,f1_percent
+uyghur_bilegal,spanmarker_xlmr_large,1,1238,314,408,77.42338961851156
+uyghur_bilegal,spanmarker_xlmr_large,2,1274,343,372,78.08764940239044
+uyghur_bilegal,spanmarker_xlmr_large,3,1277,345,369,78.15177478580172
+uyghur_bilegal,gliner25_multi,1,1272,366,374,77.46650426309378
+uyghur_bilegal,gliner25_multi,2,1256,371,390,76.74915979223954
+uyghur_bilegal,gliner25_multi,3,1277,376,369,77.41739921188238
+uyghur_bilegal,FUSION,1,1232,263,414,78.44635466411971
+uyghur_bilegal,FUSION,2,1260,331,386,77.8498609823911
+uyghur_bilegal,FUSION,3,1255,315,391,78.04726368159204

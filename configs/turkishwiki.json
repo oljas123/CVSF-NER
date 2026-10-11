@@ -1,0 +1,63 @@
+{
+  "dataset": "turkishwiki",
+  "encoder": "FacebookAI/xlm-roberta-large",
+  "encoder_revision": "c23d21b0620b635a76227c604d44e43a9f0ee389",
+  "max_length": 512,
+  "allow_truncation": false,
+  "bio": {
+    "epochs": 20,
+    "learning_rate": 3e-05,
+    "bf16": false,
+    "inference_bf16": false
+  },
+  "pool": {
+    "epochs": 20
+  },
+  "runs": {
+    "Run1": {
+      "bio_seed": 2037,
+      "partner_seed": 4037,
+      "pool_seed": 2037,
+      "external_seed": 2037
+    },
+    "Run2": {
+      "bio_seed": 2038,
+      "partner_seed": 4038,
+      "pool_seed": 2038,
+      "external_seed": 2038
+    },
+    "Run3": {
+      "bio_seed": 2036,
+      "partner_seed": 4036,
+      "pool_seed": 2040,
+      "external_seed": 2040
+    }
+  },
+  "external": {
+    "epochs": 20,
+    "entity_max_length": 14,
+    "gliner_label_names": {
+      "CARDINAL": "cardinal",
+      "DATE": "date",
+      "EVENT": "event",
+      "FAC": "fac",
+      "GPE": "gpe",
+      "LANGUAGE": "language",
+      "LAW": "law",
+      "LOC": "loc",
+      "MONEY": "money",
+      "NORP": "norp",
+      "ORDINAL": "ordinal",
+      "ORG": "org",
+      "PERCENT": "percent",
+      "PERSON": "person",
+      "PRODUCT": "product",
+      "QUANTITY": "quantity",
+      "TIME": "time",
+      "TITLE": "title",
+      "WORK-OF-ART": "work of art"
+    },
+    "gliner_model": "fastino/gliner2.5-multi-v1",
+    "gliner_revision": "cf5593a5d45e3bbf204b9df621b13b1c0cf25ee3"
+  }
+}

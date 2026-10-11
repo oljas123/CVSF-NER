@@ -1,0 +1,23 @@
+{
+  "category_net_changes.csv": "33ec5e133866eb8eda08acf64e28709686de155f7a73472d4611f3153a1d1dc6",
+  "dataset_statistics.csv": "6c047e4dc224783803fba70adf937c0bdedb99b159193dd6144f2ebafdec0c0f",
+  "deployment_costs.csv": "cab3bddf867d1aec4e4cb96e0d59b2f7354139d0cbec5efbcaa2872d3f0c52f9",
+  "error_changes.csv": "34e45c8d75d8acc9cc10d3b2c8ad73b5b16771fbf3dd4824d437f42ef335cf01",
+  "errors_summary.csv": "748d1bfd6b9158ca42f8834b2def790d3f6f6474a0b4c55840e77f007f0e1553",
+  "external_selection.csv": "bca790e4048446bc6c5280a5afe3b224a793bd16b5ab269ccf96d4170178d4e0",
+  "inference_ablations.csv": "46d134ce3ca53b378fe6f4d779b2114d618caad8d3af1edef20b914624ec6fb9",
+  "internal_selection.csv": "07450bd0235fa35994fe20bfe84a9177135b594d8c3dbf9c3634159bc05ed842",
+  "main_results.csv": "560744d8dced4a6a71377debe1c14b6651cc1914adf61ced429027ee12ed18a6",
+  "main_results_individual.csv": "7df7ed4fb66f601cc1343a3b0ef6d9fb7b19027a3d80ecb600b0f7c9feca717d",
+  "paired_intervals.csv": "35643bf90193fd3e07c04a94940024d555a66476f3d71cb6d1fe8de011f489ab",
+  "per_type_changes.csv": "5b7a6c6a9ce4d7661a92dae5820484c1a4e4d68a543e6b3f400a5608c30290f0",
+  "run_registry.csv": "27640d9ecf957d6e57d2d359bf406bf24d02176d1aa587d8af5f315a8bf138ba",
+  "training_cost_records.csv": "382cfe664a220ed6071f76450cc263a7d584440d3a07fb72130eaf12d1412a82",
+  "training_draw_intervals.csv": "116619b70d739b807ca6aece09109de9d917acfb14b41551044e1a417941aff8",
+  "training_draw_scores.csv": "f684e26a9104e712a2ea8ab3fcc8e866d7a5f75b8d3f443c756673ec0ee24ea7",
+  "training_draws.csv": "d4cf65a227d2196a692595b5013235c604cdc0765e3180fbe4706b48175000f0",
+  "uyghur_error_changes_individual.csv": "0bcc687931e0e8677cc31a19a74da21d34c80f1fcf44b8e65ea2d5e354e40114",
+  "uyghur_errors_individual.csv": "fab8a287c31d2df85d8eacb28ae8f2a0e7e8e3bdc03a1104b5318305a9e15ac8",
+  "uyghur_label_mapping.csv": "dfa6f7a882c24c29fc35acf37ecf2b5d14c4db02fdf50c28bcbea88a13218d2f",
+  "uyghur_selected_runs.csv": "0e5a6ded2ac9bc678a852a93d3a54ba535fa51f5c3d75f9dab1d900d056bad67"
+}

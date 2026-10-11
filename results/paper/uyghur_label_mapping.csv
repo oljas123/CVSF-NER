@@ -1,0 +1,11 @@
+﻿native_type,native_description,mapped_type,mapped_to_O,observed_native_tag_tokens
+NHCS,Suspect names,PER,False,8580
+NHVI,Victim names,PER,False,4134
+NS,Locations,LOC,False,18513
+NO,Organizations,ORG,False,2009
+NT,Time expressions,TIME,False,9917
+NCGV,Legal case element,MISC,False,5447
+NCSM,Legal case element,MISC,False,2328
+NASI,Legal case element,MISC,False,14126
+NCSP,Legal case element,MISC,False,622
+NATS,Legal case element,MISC,False,665

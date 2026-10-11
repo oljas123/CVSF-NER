@@ -1,0 +1,110 @@
+{
+  "identity_rule": "exact token sequence; no fuzzy or document-level claim",
+  "split_counts": {
+    "train": {
+      "records": 500,
+      "unique_texts": 485
+    },
+    "selection": {
+      "records": 160,
+      "unique_texts": 160
+    },
+    "comparison": {
+      "records": 161,
+      "unique_texts": 161
+    },
+    "test": {
+      "records": 318,
+      "unique_texts": 318
+    }
+  },
+  "exact_text_overlaps": {
+    "train__selection": 0,
+    "train__comparison": 0,
+    "train__test": 0,
+    "selection__comparison": 0,
+    "selection__test": 0,
+    "comparison__test": 0
+  },
+  "duplicate_training_groups": [
+    {
+      "text_sha256": "23a19abfaf0a610731248e37647745a6153095561825fed4cfcc2b489da03f32",
+      "multiplicity": 2,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "03d447353d09b4e03e8e0c87c064774bb1e50a824976255d66a39f8b0fad3bbf",
+      "multiplicity": 2,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "a2b58526c1619d582e10dd199715fd4054ca3526b7dc515c1037ddb5b6e3c3d5",
+      "multiplicity": 2,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "29cd7f4c5165e0a5b2b6072801e622821cf0e0d11722fae4e689be8e0e13526d",
+      "multiplicity": 4,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "c5790e44a6e78ada1fbf7d554b94e5f9d138af103debe313641c24b1ab30f4d7",
+      "multiplicity": 2,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "d14344f312e840f6c52584fed4cb0e620a29bcaf1ea7d6c3bbb6e5ebeac1c9ad",
+      "multiplicity": 3,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "ca6f5e5f1a9e8d8a6df2db36b37c79ac34424626723e06c73c044f31a5de1638",
+      "multiplicity": 3,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "955bd78471c120da84411fcb9f96b78a40ea3bc1c8d911526708a17a002ad51e",
+      "multiplicity": 3,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    },
+    {
+      "text_sha256": "b53f48c6102855f806c872da0cdaf2f84c4f6dc57e35140dd8ed89290f95d5f8",
+      "multiplicity": 3,
+      "native_annotation_variants": 1,
+      "mapped_annotation_variants": 1
+    }
+  ],
+  "duplicate_training_rows": 15,
+  "duplicates_retained": true,
+  "duplicate_annotations_consistent_native_and_mapped": true,
+  "all_duplicate_texts_share_oof_fold": true,
+  "development_overlap_records_removed": 6,
+  "internal_external_training_and_development_identity": true,
+  "mapping_frozen_by_utc": "2026-10-06T15:20:30.017129+00:00",
+  "large_contract_utc": "2026-10-08T11:28:20.631809+00:00",
+  "mapping_registry_sha256": "1b2b97eeed5673650b4864ecb312c3d4ce046701a7f7614cef16818d8b4e503a",
+  "native_types": [
+    "NASI",
+    "NATS",
+    "NCGV",
+    "NCSM",
+    "NCSP",
+    "NHCS",
+    "NHVI",
+    "NO",
+    "NS",
+    "NT"
+  ],
+  "unmapped_types": [],
+  "native_entities_before_mapping": 15616,
+  "mapped_entities_after_mapping": 15616,
+  "entity_tokens_mapped_to_O": 0
+}

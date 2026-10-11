@@ -1,0 +1,96 @@
+{
+  "kyrgyz": {
+    "name": "KyrgyzNER",
+    "format": "conll",
+    "comment_prefix": "#",
+    "repository": "https://github.com/Akyl-AI/KyrgyzNER",
+    "revision": "b76b9c9c9c4f5d681c25308cc0d8dd9f0bd6569c",
+    "license": "CC-BY-NC-SA-4.0",
+    "files": [
+      {
+        "name": "KyrgyzNER_TRAIN.jsonl.txt",
+        "url": "https://raw.githubusercontent.com/Akyl-AI/KyrgyzNER/b76b9c9c9c4f5d681c25308cc0d8dd9f0bd6569c/data/KyrgyzNER_TRAIN.jsonl.txt",
+        "sha256": "719a74a18cd99d6709c1e0592d0337aafade65aa97fe762e62f3f72a6b343a26"
+      },
+      {
+        "name": "KyrgyzNER_TEST.jsonl.gold.txt",
+        "url": "https://raw.githubusercontent.com/Akyl-AI/KyrgyzNER/b76b9c9c9c4f5d681c25308cc0d8dd9f0bd6569c/data/KyrgyzNER_TEST.jsonl.gold.txt",
+        "sha256": "57a35a92139497819a2792d3e9e00a41b387b029b7851be7a64f4968befaddf5"
+      }
+    ]
+  },
+  "turkishwiki": {
+    "name": "TurkishWikiNER",
+    "format": "conll",
+    "repository": "https://github.com/turkish-nlp-suite/Turkish-Wiki-NER-Dataset",
+    "revision": "34b6e73268e29605b0d9f4914226853e7c325a61",
+    "license": "CC-BY-SA-4.0",
+    "files": [
+      {
+        "name": "train.conll",
+        "url": "https://raw.githubusercontent.com/turkish-nlp-suite/Turkish-Wiki-NER-Dataset/34b6e73268e29605b0d9f4914226853e7c325a61/Turkish-Wiki-NER-Dataset/train.conll",
+        "sha256": "9d2a0908be5882c7db199177131f77b74ad5a3e6f1cfdd99e20858b06658040f"
+      },
+      {
+        "name": "dev.conll",
+        "url": "https://raw.githubusercontent.com/turkish-nlp-suite/Turkish-Wiki-NER-Dataset/34b6e73268e29605b0d9f4914226853e7c325a61/Turkish-Wiki-NER-Dataset/dev.conll",
+        "sha256": "30b0a4c7742977f28f16a1409a0ae45a95b3100ba0b7986fb53ce0be04b37bf5"
+      },
+      {
+        "name": "test.conll",
+        "url": "https://raw.githubusercontent.com/turkish-nlp-suite/Turkish-Wiki-NER-Dataset/34b6e73268e29605b0d9f4914226853e7c325a61/Turkish-Wiki-NER-Dataset/test.conll",
+        "sha256": "d1abd618f844b07e39963c6804c5e36707ebe3d37ff4a9040c3c08e36d99d795"
+      }
+    ]
+  },
+  "mongolian": {
+    "name": "MongolianNER",
+    "format": "doccano_gzip",
+    "repository": "https://github.com/tugstugi/mongolian-nlp",
+    "revision": "465a9a5f01a810b25c45ac175be776fffbf6cd66",
+    "license": "not declared",
+    "files": [
+      {
+        "name": "NER_v1.0.json.gz",
+        "url": "https://raw.githubusercontent.com/tugstugi/mongolian-nlp/465a9a5f01a810b25c45ac175be776fffbf6cd66/datasets/NER_v1.0.json.gz",
+        "sha256": "452727769270bc1b063f9bd2903830211b61ddbf2a8e361d73ff87c00a3f4dab"
+      }
+    ]
+  },
+  "uyghur_bilegal": {
+    "name": "UyghurBiLegalNER",
+    "format": "conll",
+    "repository": "https://github.com/PaErHaTi-DUTiR/BiLegalNER",
+    "revision": "acbb0399196f2be9b816e49c6eca24a71b01ab55",
+    "license": "research use only",
+    "files": [
+      {
+        "name": "train-ug.txt",
+        "url": "https://raw.githubusercontent.com/PaErHaTi-DUTiR/BiLegalNER/acbb0399196f2be9b816e49c6eca24a71b01ab55/BiLegalNERD/train-ug.txt",
+        "sha256": "9ae7cc1dbf36510b93eb8203a6d29eac368fb0c4f985e1a47262295c8837e0a2"
+      },
+      {
+        "name": "valid-ug.txt",
+        "url": "https://raw.githubusercontent.com/PaErHaTi-DUTiR/BiLegalNER/acbb0399196f2be9b816e49c6eca24a71b01ab55/BiLegalNERD/valid-ug.txt",
+        "sha256": "8b5c1d9f9f868b9df59f36b0f930152b5c012bf73194f7c1364b6ad1a1a74821"
+      },
+      {
+        "name": "test-ug.txt",
+        "url": "https://raw.githubusercontent.com/PaErHaTi-DUTiR/BiLegalNER/acbb0399196f2be9b816e49c6eca24a71b01ab55/BiLegalNERD/test-ug.txt",
+        "sha256": "4804c85c833766c852d26d9eb6727980753c5b1d6ac1eb9ecfe8ad48ae46d8f7"
+      }
+    ],
+    "tag_mapping": {
+      "NHCS": "PER",
+      "NHVI": "PER",
+      "NS": "LOC",
+      "NO": "ORG",
+      "NT": "TIME",
+      "NCGV": "MISC",
+      "NCSM": "MISC",
+      "NASI": "MISC",
+      "NCSP": "MISC",
+      "NATS": "MISC"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and the accompanying manuscript when available."
+title: "CVSF-NER: Candidate Verification and Score Fusion for Low-Resource Named Entity Recognition"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Tong
+    given-names: WenLun
+  - family-names: Zeng
+    given-names: Shuai
+  - family-names: Khuvonisi
+    given-names: Oljas
+  - family-names: Abulizi
+    given-names: Abudukelimu
+  - family-names: Abudukelimu
+    given-names: Halidanmu
+repository-code: "https://github.com/oljas123/CVSF-NER"
+url: "https://github.com/oljas123/CVSF-NER"
+license: MIT
+keywords:
+  - named entity recognition
+  - low-resource languages
+  - candidate verification
+  - score fusion

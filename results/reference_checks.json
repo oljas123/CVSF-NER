@@ -1,0 +1,236 @@
+{
+  "checked_utc": "2026-10-10T16:37:09.687632+00:00",
+  "record_type": "historical_validation_summary",
+  "provenance": {
+    "reference_sources": "Source IDs in reference_source_sha256 describe archived implementations that are not distributed with this repository. The hashes retain their identity without referring to internal filesystem paths.",
+    "released_python_sha256": "Hashes identify the public implementation at checked_utc. Later revisions of these files may differ.",
+    "tests": "Test counts describe the run at checked_utc. See the public validation guide for checks that can be run on the current checkout.",
+    "public_validation_guide": "docs/validation.md"
+  },
+  "result_update": [
+    {
+      "file": "main_results.csv",
+      "previous_rows": 27,
+      "current_rows": 36,
+      "unchanged_to_reported_precision": true,
+      "maximum_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "file": "main_results_individual.csv",
+      "previous_rows": 81,
+      "current_rows": 108,
+      "unchanged_to_reported_precision": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "paired_intervals.csv",
+      "previous_rows": 18,
+      "current_rows": 24,
+      "unchanged_to_reported_precision": true,
+      "maximum_absolute_difference": 0.0
+    },
+    {
+      "file": "external_selection.csv",
+      "previous_rows": 18,
+      "current_rows": 24,
+      "unchanged_to_reported_precision": true,
+      "maximum_absolute_difference": 0.0
+    }
+  ],
+  "numerical_parity": {
+    "passed": true,
+    "checks": [
+      {
+        "check": "candidate_and_features",
+        "language": "kyrgyz",
+        "sentences": 12,
+        "typed_candidates": 1363,
+        "exact": true
+      },
+      {
+        "check": "candidate_and_features",
+        "language": "turkishwiki",
+        "sentences": 12,
+        "typed_candidates": 1523,
+        "exact": true
+      },
+      {
+        "check": "candidate_and_features",
+        "language": "mongolian",
+        "sentences": 12,
+        "typed_candidates": 890,
+        "exact": true
+      },
+      {
+        "check": "candidate_and_features",
+        "language": "uyghur_bilegal",
+        "sentences": 12,
+        "typed_candidates": 4709,
+        "exact": true
+      },
+      {
+        "check": "pool_initialization_forward_and_two_updates",
+        "exact": true
+      },
+      {
+        "check": "saved_logits_fusion_and_decoding",
+        "language": "turkishwiki",
+        "sentences": 32,
+        "threshold_checks": 160,
+        "exact": true
+      },
+      {
+        "check": "saved_logits_fusion_and_decoding",
+        "language": "mongolian",
+        "sentences": 32,
+        "threshold_checks": 160,
+        "exact": true
+      },
+      {
+        "check": "saved_logits_fusion_and_decoding",
+        "language": "uyghur_bilegal",
+        "sentences": 32,
+        "threshold_checks": 160,
+        "exact": true
+      }
+    ]
+  },
+  "original_kyrgyz": {
+    "passed": true,
+    "checks": [
+      {
+        "check": "original_kyrgyz_development_selection",
+        "run": "Run1",
+        "sentences": 655,
+        "selection_sentences": 327,
+        "systems": 8,
+        "options": 425,
+        "matches_frozen_choices": true,
+        "grid_choices_equal": true
+      },
+      {
+        "check": "original_kyrgyz_frozen_test_predictions",
+        "run": "Run1",
+        "sentences": 3569,
+        "systems": 8,
+        "all_entity_sets_equal": true
+      },
+      {
+        "check": "original_kyrgyz_development_selection",
+        "run": "Run2",
+        "sentences": 655,
+        "selection_sentences": 327,
+        "systems": 8,
+        "options": 425,
+        "matches_frozen_choices": true,
+        "grid_choices_equal": true
+      },
+      {
+        "check": "original_kyrgyz_frozen_test_predictions",
+        "run": "Run2",
+        "sentences": 3569,
+        "systems": 8,
+        "all_entity_sets_equal": true
+      },
+      {
+        "check": "original_kyrgyz_development_selection",
+        "run": "Run3",
+        "sentences": 655,
+        "selection_sentences": 327,
+        "systems": 8,
+        "options": 425,
+        "matches_frozen_choices": true,
+        "grid_choices_equal": true
+      },
+      {
+        "check": "original_kyrgyz_frozen_test_predictions",
+        "run": "Run3",
+        "sentences": 3569,
+        "systems": 8,
+        "all_entity_sets_equal": true
+      }
+    ],
+    "historical_specification_sha256": "0af744ff1a0693860e86e9821b668415a911e50051390cd6c8de1082023587bf"
+  },
+  "gliner_coordinates": {
+    "passed": true,
+    "checks": [
+      {
+        "language": "kyrgyz",
+        "records": 4724,
+        "terminal_period_appended": 147,
+        "coordinate_changes": 0
+      },
+      {
+        "language": "turkishwiki",
+        "records": 2500,
+        "terminal_period_appended": 3,
+        "coordinate_changes": 0
+      },
+      {
+        "language": "mongolian",
+        "records": 2432,
+        "terminal_period_appended": 0,
+        "coordinate_changes": 0
+      },
+      {
+        "language": "uyghur_bilegal",
+        "records": 1139,
+        "terminal_period_appended": 97,
+        "coordinate_changes": 0
+      }
+    ]
+  },
+  "corpus_reconstruction": {
+    "manifests": 7,
+    "all_record_and_token_hashes_match": true,
+    "all_oof_and_split_text_checks_pass": true
+  },
+  "tests": {
+    "internal": {
+      "passed": 30,
+      "skipped": 1,
+      "includes_complete_cpu_pipeline": true
+    },
+    "external": {
+      "passed": 5,
+      "spanmarker_eager_reload_logits_equal": true,
+      "gliner_pinned_normalizer_checked": true
+    }
+  },
+  "external_reload_reference_id": "external_checkpoint_reload",
+  "reference_source_sha256": {
+    "candidate_generation": "488824cfa69bc6b6480b4a128ae05cab99be1bbb6950c8709b3a668a5c160fdd",
+    "lattice_training": "e89d848cce48d986e7b5caccc680d15b39fd25f35bf14ae759efa9ac238799a4",
+    "pool_model": "3a45247a37bde39003083d4b23909035001691c346c84f6cb66e728147b39726",
+    "pool_training": "92c214ccf3186e402c6db2874e6120fcebb7080de76224924386dacaf66ecfe7",
+    "pool_fusion_analysis": "c49b7cb06df0c231f49fef0df9d8216b4b831d4ca64d1a1e75e9e1404d0309aa",
+    "inference_ablation_analysis": "29dacee024d3b5728e260b7e7c0346cb8be03c384607ee2de7e6cb2307121634",
+    "prediction_export": "ca03f5808efcd51a96c690a69c11e5d58f8279f05f89106da8e30fb63df30143",
+    "external_checkpoint_reload": "475c44bf054b0991eb173c52ac2cdb3be8e679c823ce5e9964292243631641b6"
+  },
+  "released_python_sha256": {
+    "src/cvsf/__init__.py": "8330a1d6f49ceb92e8a3baeb89b5a12cb514eb116959abe658cf4ed878ad19ab",
+    "src/cvsf/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "src/cvsf/ablations.py": "0ea2091918747485c1f012a7348cdce7566490b6de373ed68256066a8e2abcd0",
+    "src/cvsf/candidates.py": "606d0ebecb9e025699713cd9cf5d1c128a70f83f59e87d673f0d7cbb15e3adfd",
+    "src/cvsf/cli.py": "d6f718612adc7df0eeb16fd9e738bec536cceefd41089cd5a45f81c7506edfbe",
+    "src/cvsf/data.py": "92a0f77ffb1811376478169a4f095681a824c931c2ef43b8d6ed8c4a139ac048",
+    "src/cvsf/decoding.py": "f301c43e9b3066b915623c8633600601e0585e5b492509f9a68b021e27eb2333",
+    "src/cvsf/external.py": "0eacf46b8eab396b8c49b1c559d2ffe91f73eb1d66fbce467072e07ac3a3a07c",
+    "src/cvsf/features.py": "fde349ccac9dfeaa7a9d23fe67a4f3ed26c514a8177a0abd59b893b4a843ef9d",
+    "src/cvsf/io.py": "92b690f3b6db18f50fbe43fbaa073d059da533c2eaa562b428bd3839045a859c",
+    "src/cvsf/lattice.py": "4dd8c7c945f6655468782028706134111efff2c6485deb615e087941456c378b",
+    "src/cvsf/metrics.py": "28ebe3610bc4e4f083adf0a23505f36b912e5d21b6fc23dc9ad9d258051d01c8",
+    "src/cvsf/neural.py": "a8a4fdf3e0eb0e775dfa796c2c059fe00f0c3ba2d61fe2115d09977d9b4ddb86",
+    "src/cvsf/normalization.py": "dae84963711bf048e16623d4c323e5209f0c12462a7b289939a5898c71bc1be8",
+    "src/cvsf/packets.py": "6dcd13de8946d6eb4a6bd0d3573cfbbf1b01012315c6bf9c016436fee7b0aba3",
+    "src/cvsf/pipeline.py": "8acaca062636e7c40ab7e64d22a84280e4891cbee5eb4f977c850bf7f0738505",
+    "src/cvsf/results.py": "e6f1adcbd28f036cc145a86b9656a7e30edefc7268158ade4c470d51aedfe3f7",
+    "src/cvsf/selection.py": "0f16fe860a91adf18c2417198e8fb12d8d0f892c75aca33d191db1e5e9a5e4a7",
+    "src/cvsf/smoke.py": "fac3eda325f7285a2a061edc08da4176959c6a7f4f97a472bf0be183abb35528",
+    "src/cvsf/token_scores.py": "2c63acba8224984f81f423ec4738392383e7896236674bd90efa563377aee2d9",
+    "src/cvsf/training.py": "3d02e4a524dd1defd53ceb2a39a0ef58a84a75a9d3eed06ea81f93e0aa053244"
+  },
+  "scope": "Saved-score comparisons and CPU small-model checks; no new full-size model training or test selection."
+}

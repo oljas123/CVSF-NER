@@ -1,0 +1,5 @@
+﻿language,dataset,train_sentences,selection_sentences,comparison_sentences,test_sentences,test_gold_entities,entity_types
+kyrgyz,KyrgyzNER clean-v1,500,327,328,3569,5638,25
+turkishwiki,TurkishWikiNER,500,500,500,1000,3016,19
+mongolian,MongolianNER,500,457,458,1017,1712,4
+uyghur_bilegal,BiLegalNERD (Uyghur),500,160,161,318,1646,5

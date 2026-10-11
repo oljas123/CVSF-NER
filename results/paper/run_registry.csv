@@ -1,0 +1,4 @@
+﻿run_id,legacy_display_id,pool_training_seed,external_training_seed,bio_lattice_source_seed,group,independent_full_pipeline_seed_replicate
+1,2037,2037,2037,2037,development_selected,False
+2,2038,2038,2038,2038,development_selected,False
+3,2039,2040,2040,2036,development_selected,False

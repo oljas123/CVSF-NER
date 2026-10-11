@@ -1,0 +1,7 @@
+﻿language,baseline,member_seed,recovered_gold,lost_gold,removed_false_positive,introduced_false_positive,net_tp_gain,net_fp_reduction,error_reduction,f1_difference
+uyghur_bilegal,POOL,2037,13,43,66,11,-30,55,25,0.20704902245820733
+uyghur_bilegal,POOL,2038,50,28,38,57,22,-19,3,0.3780211826414188
+uyghur_bilegal,POOL,2040,72,28,30,41,44,-11,33,1.425941315252274
+uyghur_bilegal,spanmarker_xlmr_large,2037,73,79,116,65,-6,51,45,1.0229650456081458
+uyghur_bilegal,spanmarker_xlmr_large,2038,84,98,120,108,-14,12,-2,-0.2377884199993332
+uyghur_bilegal,spanmarker_xlmr_large,2040,74,96,104,74,-22,30,8,-0.1045111042096778

@@ -1,0 +1,17 @@
+{
+  "batches": [
+    {
+      "batch": "stage19_three_language_eval_20261010",
+      "selection_locked": "2026-10-10T04:43:12.147730+00:00",
+      "all_predictions_complete": "2026-10-10T05:03:28.747410+00:00",
+      "completion": "2026-10-10T05:03:37.886395+00:00"
+    },
+    {
+      "batch": "stage19_uyghur_eval_20261010",
+      "selection_locked": "2026-10-10T14:53:00.536504+00:00",
+      "all_predictions_complete": "2026-10-10T14:58:21.389555+00:00",
+      "completion": "2026-10-10T14:58:22.052073+00:00"
+    }
+  ],
+  "all_orders_passed": true
+}
